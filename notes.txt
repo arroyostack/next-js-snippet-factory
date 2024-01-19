@@ -1,0 +1,17 @@
+1. Generate project
+
+```
+npx create-next-app@latest
+```
+
+2. Intall Prisma
+
+```
+npm instal prisma
+```
+
+3. Initialize Prisma
+
+```
+npx prisma init --datasource-provider-sqlite
+```
