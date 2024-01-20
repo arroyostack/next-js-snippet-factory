@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 export default function SnippetCreatePage() {
 
     async function createSnippet( formData: FormData ) {
-        // Make clear this is a servet action
+        // Make clear this is a server action
         'use server';
         // User enter valid input
 
